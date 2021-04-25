@@ -7,9 +7,9 @@ The purpose of this project is to create a ETL pipeline to automate the collecti
 
 ## Data Sources
 Data was sourced from the following websites:
-Wikipedia
-Kaggle
-MovieLens
+1. Wikipedia
+2. Kaggle
+3. MovieLens
 
 ## Results
 The result is a function that will take input from each of the three sources and perform transformation on the data and then load the data into a database for later exploration.  This function has created a pipeline to analysis future data.
