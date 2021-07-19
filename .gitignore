@@ -5,6 +5,8 @@ config.py
 __pycache__/
 *.py[cod]
 *$py.class
+*.csv
+*.json
 
 # C extensions
 *.so
