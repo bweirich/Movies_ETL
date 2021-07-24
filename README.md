@@ -57,16 +57,15 @@ The final data set to be extracted and transformed was the MovieLens file which 
 ### Merge Wikipedia and Kaggle
 The Wikipedia and Kaggle dataset were merged and the following columns were held competing data and were resolved in the following manner:
 
- Wikipedia                  Kaggle                    Resolution
---------------------------------------------------------------------------------------
-| title_wiki            |    title_kaggle          |   Drop Wiki                     |
-| running_time          |    runtime               |   Keep Kaggle fill in with wiki |
-| budget_wiki           |    budget_kaggle         |   Keep Kaggle fill in with wiki |
-| box_office            |    revenue               |   Keep Kaggle fill in with wiki |
-| release_date_wiki     |    release_date_kaggle   |   Drop Wiki                     |
-| Language              |    original_language     |   Drop Wiki                     |
-| Production company(s) |    production_companies  |   Drop Wiki                     |
---------------------------------------------------------------------------------------
+| Wikipedia | Kaggle | Resolution |
+|---|---|---|
+| title_wiki | title_kaggle | Drop Wiki |
+| running_time | runtime | Keep Kaggle fill in with wiki |
+| budget_wiki | budget_kaggle | Keep Kaggle fill in with wiki |
+| box_office | revenue | Keep Kaggle fill in with wiki |
+| release_date_wiki | release_date_kaggle | Drop Wiki |
+| Language | original_language | Drop Wiki |
+| Production company(s) | production_companies | Drop Wiki |
 
 ##### Title 
 The Kaggle data was used for the title column as it had less null values than the wikipedia.
