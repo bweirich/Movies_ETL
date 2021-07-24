@@ -26,6 +26,7 @@ The first data set to be extracted and transformed was the Wikipedia file.  The 
 - Review and use regular expression to format box office and budget columns
 
 ![alt_text](https://raw.githubusercontent.com/bweirich/Movies_ETL/main/Images/Box_office.PNG)
+
 ![alt_text](https://raw.githubusercontent.com/bweirich/Movies_ETL/main/Images/box_budget_clean.PNG)
 
 - Review and use regular expression to format release date
@@ -57,7 +58,7 @@ The final data set to be extracted and transformed was the MovieLens file which 
 The Wikipedia and Kaggle dataset were merged and the following columns were held competing data and were resolved in the following manner:
 
  Wikipedia                  Kaggle                    Resolution
-_____________________________________________________________________________________
+--------------------------------------------------------------------------------------
 | title_wiki            |    title_kaggle          |   Drop Wiki                     |
 | running_time          |    runtime               |   Keep Kaggle fill in with wiki |
 | budget_wiki           |    budget_kaggle         |   Keep Kaggle fill in with wiki |
@@ -65,7 +66,7 @@ ________________________________________________________________________________
 | release_date_wiki     |    release_date_kaggle   |   Drop Wiki                     |
 | Language              |    original_language     |   Drop Wiki                     |
 | Production company(s) |    production_companies  |   Drop Wiki                     |
-|__________________________________________________________________________ _________|
+--------------------------------------------------------------------------------------
 
 ##### Title 
 The Kaggle data was used for the title column as it had less null values than the wikipedia.
