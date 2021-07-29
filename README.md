@@ -107,3 +107,8 @@ A function was created to automate the above ETL to allow for new data.  A conne
 
 This was further refactored to breakdown the large function into multiple smaller functions making modifications of each transformation easier and issues easier to troubleshoot.  
 The result is a complete pipeline to extract, transform and load movie data into a database.
+
+
+| Contact Info | |  
+|---|---|
+| Email | bweirich26@gmail.com |
