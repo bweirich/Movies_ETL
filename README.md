@@ -106,10 +106,12 @@ The combined dataframe of Wikipedia and Kaggle was then merged with the pivot ra
 ## Creating Pipeline 
 A function was created to automate the above ETL to allow for new data.  A connection was created with a database to load the cleaned data into two tables.  The tables consist of a table of the merged Kaggle and Wikipedia datasets and a table of the ratings dataset.
 
+[Original Function Code](https://github.com/bweirich/Movies_ETL/blob/main/ETL_create_db_function.ipynb)
+
 This was further refactored to breakdown the large function into multiple smaller functions making modifications of each transformation easier and issues easier to troubleshoot.  
 The result is a complete pipeline to extract, transform and load movie data into a database.
 
-
+[Refactored Function Code]()
 | Contact Info | |  
 |---|---|
 | Email | bweirich26@gmail.com |
