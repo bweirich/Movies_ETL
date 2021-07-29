@@ -11,6 +11,7 @@ Data was sourced from the following websites:
 3. MovieLens
 
 ## ETL Process
+![ETL Code](https://github.com/bweirich/Movies_ETL/blob/main/ETL_exploratory.ipynb)
 
 ### Wikipedia Data
 The first data set to be extracted and transformed was the Wikipedia file.  The following steps were used to transform this data:
